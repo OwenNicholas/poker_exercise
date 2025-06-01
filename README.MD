@@ -1,9 +1,16 @@
 ## HOW TO RUN
-1. Go into "poker" directory | 
+
+1. Navigate to the project folder:
+```bash
 cd poker
+```
 
-2. Compile the files | 
-javac *.java 
+1. Compile the Java files:
+```bash
+javac *.java
+```
 
-3. use poker-hands.txt as stdin into main.java | 
+2. Run the program with input from poker-hands.txt:
+```bash
 cat poker-hands.txt | java -cp .. poker.Main
+```
